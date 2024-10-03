@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMS-TASK2</title>
+</head>
+<body>
+    <form name="f1" action="MYServlet">
+        <table align="center" cellspacing="3px" bgcolor="silver">
+            <caption><h2>REGISTRATION FORM</h2></caption>
+            <tr>
+                <td>
+                    <label for="id1">First Name</label>
+                    <br>
+                    <input type="text" name="n1" id="id1" placeholder="Enter name here" required>
+                </td>
+                <td>
+                    <label for="id2">Last Name</label><br>
+                      <input type="text" name="n2" id="id2" placeholder="Enter name here" required>
+                </td>
+            
+            <tr>
+                <td>
+                    <label for="id3">Birthday</label>
+                    <br>
+                    <input type="date" name="n3" id="id3" placeholder="Enter DOB here" required>
+                </td>
+                <td>
+                    <label for="id61">Gender</label>
+                    <br>
+                    <input type="radio" name="n6" id="id61" value="Male">Male
+                    <input type="radio" name="n6" id="id62"value="Female">Female
+                    <input type="radio" name="n6" id="id63"  value="Others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id4">Email</label>
+                    <br>
+                    <input type="email" name="n4" id="id4" placeholder="Enter email here" required>
+                </td>
+                <td>
+                    <label for="id5">Phone</label>
+                    <br>
+                    <input type="number" name="n5" id="id5" placeholder="Enter phone number" required>
+                </td>
+                
+            </tr>
+            
+        <tr>
+            <td>
+                <label>Subject</label>
+                <br>
+                <select>
+                    <option value="Choose option">Choose Option</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="Cpp">C++</option>
+                    <option value="C">C</option>
+                </select>
+            </td>
+        </tr>
+        <br>
+        <br>
+        
+        <tr>
+            
+            <td>
+                <input type="submit" value="Submit">
+            </td>
+        
+        </tr>
+    
+        </table>
+    </form>
+</body>
+</html>
